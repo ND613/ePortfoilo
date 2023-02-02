@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+Author: Nathan Day
+Date: 2/2/2023
+Description: CSS file for ePortfolio
+*/
+
+body{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+} 
+#para1{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+#Contact{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: large;
+}
+.goals{
+font-size: medium;
+list-style: upper-roman;
+}
+a:link {
+    color: chartreuse;
+}
+a:visited{
+    color: darkblue;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+a:active{
+    color: crimson;
+}
