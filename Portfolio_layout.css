@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*
+Author: Nathan Day
+Date: 2/16/2023
+Description: CSS file for ePortfolio
+*/
+
+.item1 {grid-area: header; }
+.item2 {grid-area: contact; }
+.item3 {grid-area: skills; }
+.item4 {grid-area: education; }
+.item5 {grid-area: profile; }
+.item6 {grid-area: experience; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "contact profile profile"
+        "skills experience experience"
+        "education experience experience";
+    gap: 5px;
+    background-color: rgb(65, 59, 59);
+    padding: 10px;
+    font-family: "Mukta";
+}
+.grid-container > div {
+    background-color: white;
+    text-align: left;
+    padding: 20px 0;
+    padding-left: 10px;
+    font-size: 30px;
+    color: #666666;
+}
+
+.grid-container > div h2 {
+    text-transform: capitalize;
+}
+
+.grid-container > div p{
+    font-size: 1em;
+    font-weight: lighter;
+}
+
